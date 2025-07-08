@@ -12,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Message />
+      <Message />
       <div className="h-dvh border border-red-500"></div>
     </main>
   );
