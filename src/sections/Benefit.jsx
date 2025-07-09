@@ -5,6 +5,7 @@ import gsap from "gsap";
 const Benefit = () => {
   useGSAP(() => {
     const revealTimeline = gsap.timeline({
+      delay: 1,
       scrollTrigger: {
         trigger: ".benefit-section",
         start: "top 60%",
@@ -16,7 +17,7 @@ const Benefit = () => {
       .to(".benefit-section .first-title", {
         duration: 1,
         opacity: 1,
-        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+        clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
         ease: "circ.out",
       })
       .to(".benefit-section .second-title", {
@@ -57,25 +58,25 @@ const Benefit = () => {
               borderColor="#222123"
             />
             <ClipPathTitle
-              title={"Protein + Caffeine"}
-              color={"#222123"}
-              bg={"#faeade"}
-              className={"second-title"}
-              borderColor={"#222123"}
+              title="Protein + Caffeine"
+              color="#222123"
+              bgColor="#faeade"
+              className="second-title"
+              borderColor="#222123"
             />
             <ClipPathTitle
-              title={"Infinitely recyclable"}
-              color={"#faeade"}
-              bg={"#7F3B2D"}
-              className={"third-title"}
-              borderColor={"#222123"}
+              title="Infinitely recyclable"
+              color="#faeade"
+              bgColor="#7F3B2D"
+              className="third-title"
+              borderColor="#222123"
             />
             <ClipPathTitle
-              title={"Lactose free"}
-              color={"#2E2D2F"}
-              bg={"#FED775"}
-              className={"fourth-title"}
-              borderColor={"#222123"}
+              title="Lactose free"
+              color="#2E2D2F"
+              bgColor="#FED775"
+              className="fourth-title"
+              borderColor="#222123"
             />
           </div>
 
