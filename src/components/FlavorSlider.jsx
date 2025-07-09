@@ -34,7 +34,7 @@ const FlavorSlider = () => {
     const titleTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".flavor-section",
-        start: "top top",
+        start: "top 10%",
         end: "bottom 80%",
         scrub: true,
       },
@@ -42,7 +42,7 @@ const FlavorSlider = () => {
 
     titleTimeline
       .to(".first-text-split", {
-        xPercent: -30,
+        xPercent: -25,
         ease: "power1.inOut",
       })
       .to(
@@ -56,7 +56,7 @@ const FlavorSlider = () => {
       .to(
         ".second-text-split",
         {
-          xPercent: -10,
+          xPercent: -8,
           ease: "power1.inOut",
         },
         "<"
