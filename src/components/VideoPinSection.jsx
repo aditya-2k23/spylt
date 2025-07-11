@@ -12,7 +12,7 @@ const VideoPinSection = () => {
       const timeline = gsap.timeline({
         scrollTrigger: {
           trigger: ".vd-pin-section",
-          start: "-15% top",
+          start: "top top",
           end: "200% top",
           scrub: 1.5,
           pin: true,
@@ -31,7 +31,7 @@ const VideoPinSection = () => {
         style={{
           clipPath: isMobile
             ? "circle(100% at 50% 50%)"
-            : "circle(6% at 50% 50%)",
+            : "circle(10% at 50% 50%)",
         }}
         className="size-full video-box"
       >
