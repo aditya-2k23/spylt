@@ -110,7 +110,9 @@ const Hero = () => {
           </h2>
 
           <div className="hero-button">
-            <p>Chug a SPYLT</p>
+            <span>
+              <p>Chug a SPYLT</p>
+            </span>
           </div>
         </div>
       </div>
