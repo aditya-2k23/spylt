@@ -43,6 +43,11 @@ body::-webkit-scrollbar {
   /* Chrome, Safari */
 }
 
+::selection {
+  background-color: #faeade;
+  color: #523122;
+}
+
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;
