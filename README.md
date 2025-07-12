@@ -1,12 +1,56 @@
-# React + Vite
+# SPYLT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SPYLT is a modern, visually rich, and interactive landing page built with React, Vite, and Tailwind CSS. It features smooth scrolling, animated sections, and a responsive design, showcasing the benefits and features of the SPYLT product.
 
-Currently, two official plugins are available:
+> **Note:** This project is inspired by and takes reference from the AWWWARDS-winning website [SPYLT](https://www.awwwards.com/sites/spylt-milk).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React 19** – UI library for building interactive interfaces
+- **Vite** – Fast build tool and development server
+- **Tailwind CSS 4** – Utility-first CSS framework for rapid UI development
+- **GSAP** (GreenSock Animation Platform) – Advanced animations and scroll effects
+- **@gsap/react** – GSAP integration for React
+- **@tailwindcss/vite** – Tailwind CSS integration for Vite
+- **ESLint** – Linting for code quality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```plaintext
+src/
+  App.jsx              # Main app component, sets up smooth scrolling and layout
+  index.css            # Global styles and Tailwind layers
+  main.jsx             # Entry point
+  components/          # Reusable UI components (Navbar, ClipPathTitle, etc.)
+  constants/           # Project constants
+  sections/            # Main page sections (Hero, Message, Flavor, Nutrition, Benefit, Testimonial, Footer)
+public/
+  fonts/               # Custom fonts
+  images/              # Images and SVGs
+  videos/              # Video assets
+```
+
+## Main Features
+
+- **Animated Sections:** Uses GSAP for scroll-based and reveal animations
+- **Smooth Scrolling:** Powered by GSAP ScrollSmoother
+- **Responsive Design:** Mobile-first, fully responsive layout
+- **Custom Typography:** Integrates Google Fonts and custom fonts
+- **Reusable Components:** Modular React components for maintainability
+- **Rich Media:** Includes images, SVGs, and videos for a dynamic experience
+
+## Getting Started
+
+1. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:5173` to view the app.
