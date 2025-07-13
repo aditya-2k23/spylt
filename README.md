@@ -1,8 +1,9 @@
 # SPYLT
 
-SPYLT is a modern, visually rich, and interactive landing page built with React, Vite, and Tailwind CSS. It features smooth scrolling, animated sections, and a responsive design, showcasing the benefits and features of the SPYLT product.
+SPYLT is a modern, visually rich, and interactive landing page built with React, Vite, and Tailwind CSS. It features smooth scrolling, animated sections, and a responsive design, showcasing the benefits and features of the SPYLT product.  
+See it live here 👉 [SPYLT Milk](https://spylt-adi.netlify.app/)
 
-> **Note:** This project is inspired by and takes reference from the AWWWARDS-winning website [SPYLT](https://www.awwwards.com/sites/spylt-milk).
+> **Note:** This project is inspired by the AWWWARDS-winning website [SPYLT](https://www.awwwards.com/sites/spylt-milk).
 
 ## Tech Stack
 
